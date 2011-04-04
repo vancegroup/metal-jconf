@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?org-vrjuggler-jccl-settings configuration.version="3.0"?>
+<configuration xmlns="http://www.vrjuggler.org/jccl/xsd/3.0/configuration" name="/home/rpavlik/Desktop/METaL.wiimote.jconf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vrjuggler.org/jccl/xsd/3.0/configuration http://www.vrjuggler.org/jccl/xsd/3.0/configuration.xsd">
+   <elements>
+      <position_proxy name="TreeTargetProxy" version="1">
+         <device>TrackPack4</device>
+         <unit>1</unit>
+      </position_proxy>
+      <position_proxy name="WristTargetProxy" version="1">
+         <device>TrackPack4</device>
+         <unit>2</unit>
+      </position_proxy>
+      <position_proxy name="HandTargetProxy" version="1">
+         <device>TrackPack4</device>
+         <unit>3</unit>
+      </position_proxy>
+   </elements>
+</configuration>
+
