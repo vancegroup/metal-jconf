@@ -70,7 +70,7 @@
                   </simulator_viewport>
                </simulator_viewports>
                <keyboard_mouse_device_name>Keyboard/MouseInputHandler0</keyboard_mouse_device_name>
-               <allow_mouse_locking>true</allow_mouse_locking>
+               <allow_mouse_locking>false</allow_mouse_locking>
                <lock_key>KEY_NONE</lock_key>
                <start_locked>false</start_locked>
                <sleep_time>75</sleep_time>
