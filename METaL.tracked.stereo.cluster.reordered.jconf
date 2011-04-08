@@ -6,6 +6,7 @@
    <include>components/METaL.cluster.head.jconf</include>
    <include>components/METaL.cluster.render.stereo.reordered.jconf</include>
    <include>components/METaL.arttargets.jconf</include>
+   <include>components/METaL.handtarget.aswand.jconf</include>
    <elements />
 </configuration>
 
