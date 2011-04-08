@@ -52,12 +52,12 @@
                      <size>1.0</size>
                      <size>1.0</size>
                      <view>Right Eye</view>
-                     <user>User1</user>
+                     <user>VJUser</user>
                      <active>true</active>
                      <vertical_fov>80.0</vertical_fov>
                      <simulator_plugin>
                         <default_simulator name="Default Simulator" version="3">
-                           <camera_pos>SimCamera Proxy</camera_pos>
+                           <camera_pos>VJHead</camera_pos>
                            <wand_pos>VJWand</wand_pos>
                            <draw_projections>true</draw_projections>
                            <surface_color>0.7</surface_color>
