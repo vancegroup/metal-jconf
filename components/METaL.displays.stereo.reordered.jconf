@@ -13,7 +13,7 @@
       <display_window name="VR Juggler Application" version="6">
          <origin>0</origin>
          <origin>0</origin>
-         <size>4200</size>
+         <size>4800</size>
          <size>1200</size>
          <pipe>0</pipe>
          <frame_buffer_config>
@@ -72,7 +72,7 @@
          </surface_viewports>
          <surface_viewports>
             <surface_viewport name="RightWall (Stereo)" version="3">
-               <origin>0.0</origin>
+               <origin>0.3333333</origin>
                <origin>0.0</origin>
                <size>0.3333333</size>
                <size>1.0</size>
