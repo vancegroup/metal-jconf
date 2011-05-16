@@ -4,8 +4,6 @@
    <include>components/METaL.base.jconf</include>
    <include>components/METaL.displays.stereo.jconf</include>
    <include>components/METaL.arttargets.jconf</include>
-   <include>components/METaL.wiimotewandbuttons.jconf</include>
-   <include>components/METaL.handtarget.aswand.jconf</include>
    <elements />
 </configuration>
 
