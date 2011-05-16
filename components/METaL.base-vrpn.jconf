@@ -6,7 +6,7 @@
          <driver>VRPN_drv</driver>
       </input_manager>
       <vrpn name="TrackPack4" version="2">
-         <tracker_server>DTrack@metal.vrac.iastate.edu</tracker_server>
+         <tracker_server>DTrack@192.168.1.20</tracker_server>
          <button_server>Button0@localhost</button_server>
          <analog_server>Analog@localhost</analog_server>
          <tracker_count>4</tracker_count>
