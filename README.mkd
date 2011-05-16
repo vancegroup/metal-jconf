@@ -23,6 +23,9 @@ These files are for use with the VR Juggler 3.0 series.
 Which Config Files to Use?
 --------------------------
 
+You'll use exactly one "main" jconf file, and possible one or more
+"mix-in" jconf files to add functionality.
+
   * You must use one "main" jconf file setting up displays and head
   tracking. Usually, for full functionality, this will be
   `METaL.tracked.stereo.jconf` or `METaL.tracked.stereo.reordered.jconf`
@@ -66,6 +69,10 @@ Which Config Files to Use?
     cluster mode to the Juggler kernel - how to do this depends on what
     application you're using.
 
+    * If you want less than all three screens, choose a config file with
+    that number of displays in the filename. Configs without numbers use
+    all three displays.
+
   * You may then also load additional "mix-in" jconf files to provide
   additional features.
 
@@ -88,8 +95,9 @@ Which Config Files to Use?
     `mixins/METaL.treetarget.aswand.jconf`, this makes our Wii Remote
     look like a "typical" VR wand (if there is such a thing...)
 
-    * `simview.mixin.vrj30.jconf` - Primarily for debugging - shows a simulator
-    view with the projections displayed as well as the head and wand positions.
+    * `simview.mixin.vrj30.jconf` - Primarily for debugging - shows a
+    simulator view with the projections displayed as well as the head
+    and wand positions.
 
 System Description
 ------------------
