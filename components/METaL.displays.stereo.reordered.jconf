@@ -19,12 +19,12 @@
          <frame_buffer_config>
             <opengl_frame_buffer_config name="GL Frame Buffer" version="4">
                <visual_id>-1</visual_id>
-               <red_size>8</red_size>
-               <green_size>8</green_size>
-               <blue_size>8</blue_size>
-               <alpha_size>8</alpha_size>
+               <red_size>1</red_size>
+               <green_size>1</green_size>
+               <blue_size>1</blue_size>
+               <alpha_size>1</alpha_size>
                <auxiliary_buffer_count>0</auxiliary_buffer_count>
-               <depth_buffer_size>16</depth_buffer_size>
+               <depth_buffer_size>1</depth_buffer_size>
                <stencil_buffer_size>1</stencil_buffer_size>
                <accum_red_size>1</accum_red_size>
                <accum_green_size>1</accum_green_size>
@@ -85,12 +85,12 @@
          <frame_buffer_config>
             <opengl_frame_buffer_config name="GL Frame Buffer" version="4">
                <visual_id>-1</visual_id>
-               <red_size>8</red_size>
-               <green_size>8</green_size>
-               <blue_size>8</blue_size>
-               <alpha_size>8</alpha_size>
+               <red_size>1</red_size>
+               <green_size>1</green_size>
+               <blue_size>1</blue_size>
+               <alpha_size>1</alpha_size>
                <auxiliary_buffer_count>0</auxiliary_buffer_count>
-               <depth_buffer_size>16</depth_buffer_size>
+               <depth_buffer_size>1</depth_buffer_size>
                <stencil_buffer_size>1</stencil_buffer_size>
                <accum_red_size>1</accum_red_size>
                <accum_green_size>1</accum_green_size>
@@ -151,12 +151,12 @@
          <frame_buffer_config>
             <opengl_frame_buffer_config name="GL Frame Buffer" version="4">
                <visual_id>-1</visual_id>
-               <red_size>8</red_size>
-               <green_size>8</green_size>
-               <blue_size>8</blue_size>
-               <alpha_size>8</alpha_size>
+               <red_size>1</red_size>
+               <green_size>1</green_size>
+               <blue_size>1</blue_size>
+               <alpha_size>1</alpha_size>
                <auxiliary_buffer_count>0</auxiliary_buffer_count>
-               <depth_buffer_size>16</depth_buffer_size>
+               <depth_buffer_size>1</depth_buffer_size>
                <stencil_buffer_size>1</stencil_buffer_size>
                <accum_red_size>1</accum_red_size>
                <accum_green_size>1</accum_green_size>
