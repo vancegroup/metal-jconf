@@ -181,3 +181,12 @@ System Description
 				(https://cvs.cs.unc.edu/git/?p=vrpn.git;a=blob;f=vrpn_WiiMote.h;hb=HEAD)
 				for information.
 
+More Information
+----------------
+
+You might consider using the
+[jconf-grapher](https://github.com/rpavlik/jconf-grapher) to visualize
+the devices made available with these config files. If you're not in our
+research group and any of this information is useful to you, we'd
+appreciate hearing from you! You can reach Ryan Pavlik, who put these
+files together, via his web site at (http://academic.cleardefinition.com).
