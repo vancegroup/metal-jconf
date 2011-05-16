@@ -1,0 +1,50 @@
+JConfs for METaL
+================
+
+METaL - The Multimodal Experience Testbed and Laboratory
+
+Introduction
+------------
+
+*METaL* is a 3-wall virtual reality system used by [Judy M. Vance,
+Ph.D.](http://www.vrac.iastate.edu/~jmvance/)'s research team at the
+[Iowa State University Virtual Reality Applications
+Center](http://www.vrac.iastate.edu/). The primary software run on this
+system is built on the [VR Juggler](http://vrjuggler.googlecode.com)
+open-source VR software framework, originally developed at Iowa State
+University and now widely used. This repository contains the JCONF files
+for configuring VR Juggler applications to run in METaL. They are on Git
+so that changes and modifications may be tracked, and are shared on
+GitHub for easier collaborations and so that they may serve as examples
+for others wishing to use VR Juggler.
+
+These files are for use with the VR Juggler 3.0 series.
+
+System Description
+------------------
+
+ * Two computers:
+
+   * Head node: `metal.vrac.iastate.edu`
+
+     * On the internal switch, this computer is also known a `192.168.1.20`
+
+     * Contains a single NVIDIA Quadro FX 5800 card.
+
+     * Serves as the main node for controlling the tracker, as well as
+     other peripherals.
+
+   * Render node: `metal-render.vrac.iastate.edu`
+
+     * On the internal switch, this computer is also known a `192.168.1.21`
+
+     * Connected to two NVIDIA Quadro Plex 2200 D2 units, for a total of
+     four NVIDIA Quadro FX 5800 cards (three used, one per wall)
+
+ * Projectors: Three Digital Projection Inc. TITAN WUXGA 3D Series II
+
+   * Left wall and floor are 12' x 9', and projected at 1600x1200.
+
+   * Right wall is 9' x 9', projected at 1600x1200 but the right-most
+   and left-most 200 pixels are not visible on the walls.
+
