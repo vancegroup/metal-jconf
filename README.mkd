@@ -20,6 +20,15 @@ for others wishing to use VR Juggler.
 
 These files are for use with the VR Juggler 3.0 series.
 
+Which Config Files to Use - The [tl;dr][1] Version
+--------------------------------------------------
+These three:
+
+* `METaL.tracked.stereo.reordered.jconf`
+* `mixins/METaL.treetarget.aswand.jconf`
+* `mixins/METaL.wiimotewandbuttons.jconf`
+
+
 Which Config Files to Use?
 --------------------------
 
@@ -199,4 +208,5 @@ files together, via his web site at (http://academic.cleardefinition.com).
 
 
 
+[1]: http://en.wiktionary.org/wiki/TLDR "Too long, didn't read"
 [2]: https://cvs.cs.unc.edu/git/?p=vrpn.git;a=blob;f=vrpn_WiiMote.h;hb=HEAD "VRPN WiiMote header"
