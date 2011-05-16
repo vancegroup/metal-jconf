@@ -20,6 +20,77 @@ for others wishing to use VR Juggler.
 
 These files are for use with the VR Juggler 3.0 series.
 
+Which Config Files to Use?
+--------------------------
+
+  * You must use one "main" jconf file setting up displays and head
+  tracking. Usually, for full functionality, this will be
+  `METaL.tracked.stereo.jconf` or `METaL.tracked.stereo.reordered.jconf`
+  (see below).
+
+  The "main" jconf files in the base directory select some subset of the
+  config files in `components` to load in order to provide the desired
+  functionality. So, you don't ever need to directly load a file from
+  `components,` just pick the right main file and it'll be handled for
+  you.
+
+  Decide which to use based on these criteria:
+
+    * Stereo or mono? Usually, you'll want stereo.
+
+    * Do the desktop displays seem to be in the "wrong" order? Then we
+    are still troubleshooting so must have these in an order that works
+    better for non-VR Juggler software, sorry. Use a main file with
+    `reordered` in the filename.
+
+    * Are you using a build of VR Juggler earlier than r21659? (This came
+    after 3.0.0 but before 3.0.1, and contains fixes by Ryan Pavlik to
+    allow the DTrack driver, as well as other UDP networking code, to
+    work properly on Windows XP.)
+
+    * The version installed on the system is a recent SVN snapshot
+    including this fix. Use a main jconf *without* `vrpn` in the
+    filename, since we don't need to workaround this bug.
+
+    * Binaries from others might be older. In this case, you'll need to
+    use one of the configs with `vrpn` in the filename, and run one of
+    the tracker or tracker+wiimote vrpn servers on the head node (not
+    the handy GUI), to work around the fact that the DTrack driver is
+    essentially broken in these older versions.
+
+    * Do you want to run clustered (with the application running on both
+    the head node and the render node)? This is an advanced
+    configuration, and not currently recommended for general use. In this
+    case, you'll run your app on both computers, passing a jconf with
+    `cluster` in the name on the head node only, and further specifying
+    cluster mode to the Juggler kernel - how to do this depends on what
+    application you're using.
+
+  * You may then also load additional "mix-in" jconf files to provide
+  additional features.
+
+    * "Alias" one of the ART targets to `VJWand`: All ART targets are
+    available by name through every base configuration, but VR Juggler
+    apps often expect some position-tracked device to be available known
+    as `VJWand`. Loading one of these files will create that alias:
+
+      * `mixins/METaL.treetarget.aswand.jconf` - This is the most likely
+      choice, since the tree target is attached to the Wii Remote for use
+      as a wand.
+
+      * `mixins/METaL.wristtarget.aswand.jconf` - for the small hand
+      target
+
+      * `mixins/METaL.handtarget.aswand.jconf` - for the "claw" target
+
+    * `mixins/METaL.wiimotewandbuttons.jconf` - Access the Wii Remote
+    and create the typical button aliases. Together with
+    `mixins/METaL.treetarget.aswand.jconf`, this makes our Wii Remote
+    look like a "typical" VR wand (if there is such a thing...)
+
+    * `simview.mixin.vrj30.jconf` - Primarily for debugging - shows a simulator
+    view with the projections displayed as well as the head and wand positions.
+
 System Description
 ------------------
 
