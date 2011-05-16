@@ -76,21 +76,21 @@
          <start_locked>false</start_locked>
          <sleep_time>75</sleep_time>
       </display_window>
-      <display_window name="Right" version="6">
-         <origin>1600</origin>
+      <display_window name="Floor" version="6">
+         <origin>3200</origin>
          <origin>0</origin>
          <size>1600</size>
          <size>1200</size>
-         <pipe>1</pipe>
+         <pipe>2</pipe>
          <frame_buffer_config>
             <opengl_frame_buffer_config name="GL Frame Buffer" version="4">
                <visual_id>-1</visual_id>
-               <red_size>8</red_size>
-               <green_size>8</green_size>
-               <blue_size>8</blue_size>
-               <alpha_size>8</alpha_size>
+               <red_size>1</red_size>
+               <green_size>1</green_size>
+               <blue_size>1</blue_size>
+               <alpha_size>1</alpha_size>
                <auxiliary_buffer_count>0</auxiliary_buffer_count>
-               <depth_buffer_size>16</depth_buffer_size>
+               <depth_buffer_size>1</depth_buffer_size>
                <stencil_buffer_size>1</stencil_buffer_size>
                <accum_red_size>1</accum_red_size>
                <accum_green_size>1</accum_green_size>
@@ -111,24 +111,24 @@
          <always_on_top>false</always_on_top>
          <active>true</active>
          <surface_viewports>
-            <surface_viewport name="RightWall (Stereo)" version="3">
+            <surface_viewport name="FloorWall (Stereo)" version="3">
                <origin>0.0</origin>
                <origin>0.0</origin>
                <size>1.0</size>
                <size>1.0</size>
                <view>Stereo</view>
-               <lower_left_corner>3.6576</lower_left_corner>
                <lower_left_corner>0.0</lower_left_corner>
-               <lower_left_corner>-0.4572</lower_left_corner>
+               <lower_left_corner>0.0</lower_left_corner>
+               <lower_left_corner>2.7432</lower_left_corner>
                <lower_right_corner>3.6576</lower_right_corner>
                <lower_right_corner>0.0</lower_right_corner>
-               <lower_right_corner>3.2004</lower_right_corner>
+               <lower_right_corner>2.7432</lower_right_corner>
                <upper_right_corner>3.6576</upper_right_corner>
-               <upper_right_corner>2.7432</upper_right_corner>
-               <upper_right_corner>3.2004</upper_right_corner>
-               <upper_left_corner>3.6576</upper_left_corner>
-               <upper_left_corner>2.7432</upper_left_corner>
-               <upper_left_corner>-0.4572</upper_left_corner>
+               <upper_right_corner>0.0</upper_right_corner>
+               <upper_right_corner>0.0</upper_right_corner>
+               <upper_left_corner>0.0</upper_left_corner>
+               <upper_left_corner>0.0</upper_left_corner>
+               <upper_left_corner>0.0</upper_left_corner>
                <user>VJUser</user>
                <active>true</active>
                <tracked>false</tracked>
