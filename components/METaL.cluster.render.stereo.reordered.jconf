@@ -13,21 +13,21 @@
             </display_system>
          </display_system>
          <display_windows>
-            <display_window name="Front" version="6">
+            <display_window name="VR Juggler Application" version="6">
                <origin>0</origin>
                <origin>0</origin>
-               <size>1600</size>
+               <size>4800</size>
                <size>1200</size>
                <pipe>0</pipe>
                <frame_buffer_config>
                   <opengl_frame_buffer_config name="GL Frame Buffer" version="4">
                      <visual_id>-1</visual_id>
-                     <red_size>8</red_size>
-                     <green_size>8</green_size>
-                     <blue_size>8</blue_size>
-                     <alpha_size>8</alpha_size>
+                     <red_size>1</red_size>
+                     <green_size>1</green_size>
+                     <blue_size>1</blue_size>
+                     <alpha_size>1</alpha_size>
                      <auxiliary_buffer_count>0</auxiliary_buffer_count>
-                     <depth_buffer_size>16</depth_buffer_size>
+                     <depth_buffer_size>1</depth_buffer_size>
                      <stencil_buffer_size>1</stencil_buffer_size>
                      <accum_red_size>1</accum_red_size>
                      <accum_green_size>1</accum_green_size>
@@ -48,10 +48,10 @@
                <always_on_top>false</always_on_top>
                <active>true</active>
                <surface_viewports>
-                  <surface_viewport name="FrontWall (Stereo)" version="3">
+                  <surface_viewport name="LeftWall (Stereo)" version="3">
                      <origin>0.0</origin>
                      <origin>0.0</origin>
-                     <size>1.0</size>
+                     <size>0.3333333</size>
                      <size>1.0</size>
                      <view>Stereo</view>
                      <lower_left_corner>0.0</lower_left_corner>
@@ -73,53 +73,11 @@
                      <auto_corner_update>0</auto_corner_update>
                   </surface_viewport>
                </surface_viewports>
-               <keyboard_mouse_device_name>Keyboard/MouseInputHandler0</keyboard_mouse_device_name>
-               <allow_mouse_locking>false</allow_mouse_locking>
-               <lock_key>0</lock_key>
-               <start_locked>false</start_locked>
-               <sleep_time>75</sleep_time>
-            </display_window>
-         </display_windows>
-         <display_windows>
-            <display_window name="Right" version="6">
-               <origin>1600</origin>
-               <origin>0</origin>
-               <size>1600</size>
-               <size>1200</size>
-               <pipe>1</pipe>
-               <frame_buffer_config>
-                  <opengl_frame_buffer_config name="GL Frame Buffer" version="4">
-                     <visual_id>-1</visual_id>
-                     <red_size>8</red_size>
-                     <green_size>8</green_size>
-                     <blue_size>8</blue_size>
-                     <alpha_size>8</alpha_size>
-                     <auxiliary_buffer_count>0</auxiliary_buffer_count>
-                     <depth_buffer_size>16</depth_buffer_size>
-                     <stencil_buffer_size>1</stencil_buffer_size>
-                     <accum_red_size>1</accum_red_size>
-                     <accum_green_size>1</accum_green_size>
-                     <accum_blue_size>1</accum_blue_size>
-                     <accum_alpha_size>1</accum_alpha_size>
-                     <num_sample_buffers>0</num_sample_buffers>
-                     <num_samples>0</num_samples>
-                     <use_create_context_attribs>false</use_create_context_attribs>
-                     <gl_context_major_version>3</gl_context_major_version>
-                     <gl_context_minor_version>0</gl_context_minor_version>
-                     <gl_context_flags>0</gl_context_flags>
-                  </opengl_frame_buffer_config>
-               </frame_buffer_config>
-               <stereo>true</stereo>
-               <border>false</border>
-               <hide_mouse>true</hide_mouse>
-               <full_screen>false</full_screen>
-               <always_on_top>false</always_on_top>
-               <active>true</active>
                <surface_viewports>
                   <surface_viewport name="RightWall (Stereo)" version="3">
+                     <origin>0.3333333</origin>
                      <origin>0.0</origin>
-                     <origin>0.0</origin>
-                     <size>1.0</size>
+                     <size>0.3333333</size>
                      <size>1.0</size>
                      <view>Stereo</view>
                      <lower_left_corner>3.6576</lower_left_corner>
@@ -141,53 +99,11 @@
                      <auto_corner_update>0</auto_corner_update>
                   </surface_viewport>
                </surface_viewports>
-               <keyboard_mouse_device_name>Keyboard/MouseInputHandler0</keyboard_mouse_device_name>
-               <allow_mouse_locking>false</allow_mouse_locking>
-               <lock_key>0</lock_key>
-               <start_locked>false</start_locked>
-               <sleep_time>75</sleep_time>
-            </display_window>
-         </display_windows>
-         <display_windows>
-            <display_window name="Floor" version="6">
-               <origin>3200</origin>
-               <origin>0</origin>
-               <size>1600</size>
-               <size>1200</size>
-               <pipe>2</pipe>
-               <frame_buffer_config>
-                  <opengl_frame_buffer_config name="GL Frame Buffer" version="4">
-                     <visual_id>-1</visual_id>
-                     <red_size>8</red_size>
-                     <green_size>8</green_size>
-                     <blue_size>8</blue_size>
-                     <alpha_size>8</alpha_size>
-                     <auxiliary_buffer_count>0</auxiliary_buffer_count>
-                     <depth_buffer_size>16</depth_buffer_size>
-                     <stencil_buffer_size>1</stencil_buffer_size>
-                     <accum_red_size>1</accum_red_size>
-                     <accum_green_size>1</accum_green_size>
-                     <accum_blue_size>1</accum_blue_size>
-                     <accum_alpha_size>1</accum_alpha_size>
-                     <num_sample_buffers>0</num_sample_buffers>
-                     <num_samples>0</num_samples>
-                     <use_create_context_attribs>false</use_create_context_attribs>
-                     <gl_context_major_version>3</gl_context_major_version>
-                     <gl_context_minor_version>0</gl_context_minor_version>
-                     <gl_context_flags>0</gl_context_flags>
-                  </opengl_frame_buffer_config>
-               </frame_buffer_config>
-               <stereo>true</stereo>
-               <border>false</border>
-               <hide_mouse>true</hide_mouse>
-               <full_screen>false</full_screen>
-               <always_on_top>false</always_on_top>
-               <active>true</active>
                <surface_viewports>
                   <surface_viewport name="FloorWall (Stereo)" version="3">
+                     <origin>0.6666667</origin>
                      <origin>0.0</origin>
-                     <origin>0.0</origin>
-                     <size>1.0</size>
+                     <size>0.3333333</size>
                      <size>1.0</size>
                      <view>Stereo</view>
                      <lower_left_corner>0.0</lower_left_corner>
