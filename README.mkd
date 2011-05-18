@@ -22,12 +22,15 @@ These files are for use with the VR Juggler 3.0 series.
 
 Which Config Files to Use - The [tl;dr][1] Version
 --------------------------------------------------
-These three:
+This one:
+
+* `METaL.tracked.stereo.reordered.withwand.jconf`
+
+which does exactly the same thing as loading these three:
 
 * `METaL.tracked.stereo.reordered.jconf`
 * `mixins/METaL.treetarget.aswand.jconf`
 * `mixins/METaL.wiimotewandbuttons.jconf`
-
 
 Which Config Files to Use?
 --------------------------
