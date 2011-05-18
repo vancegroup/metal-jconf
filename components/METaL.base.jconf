@@ -2,34 +2,6 @@
 <?org-vrjuggler-jccl-settings configuration.version="3.0"?>
 <configuration xmlns="http://www.vrjuggler.org/jccl/xsd/3.0/configuration" name="components/METaL.base.jconf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vrjuggler.org/jccl/xsd/3.0/configuration http://www.vrjuggler.org/jccl/xsd/3.0/configuration.xsd">
    <elements>
-      <input_manager name="DTrack Input Manager" version="2">
-         <driver>DTrack_drv</driver>
-      </input_manager>
-      <dtrack name="TrackPack4" version="1">
-         <receive_port>5000</receive_port>
-         <server_name>192.168.1.22</server_name>
-         <command_port>5001</command_port>
-         <min>-1.0</min>
-         <max>1.0</max>
-         <position_filters>
-            <position_transform_filter name="MoveOriginToCorner" version="1">
-               <pre_translate>1.8288</pre_translate>
-               <pre_translate>0.0</pre_translate>
-               <pre_translate>1.524</pre_translate>
-               <pre_rotation>0.0</pre_rotation>
-               <pre_rotation>0.0</pre_rotation>
-               <pre_rotation>0.0</pre_rotation>
-               <custom_scale>1.0</custom_scale>
-               <device_units>Meters</device_units>
-               <post_translate>0.0</post_translate>
-               <post_translate>0.0</post_translate>
-               <post_translate>0.0</post_translate>
-               <post_rotation>0.0</post_rotation>
-               <post_rotation>0.0</post_rotation>
-               <post_rotation>0.0</post_rotation>
-            </position_transform_filter>
-         </position_filters>
-      </dtrack>
       <position_proxy name="HeadPositionProxy" version="1">
          <device>TrackPack4</device>
          <unit>0</unit>
@@ -102,10 +74,6 @@
       <keyboard_mouse_proxy name="KBMouseProxy" version="1">
          <device>Keyboard/MouseInputHandler0</device>
       </keyboard_mouse_proxy>
-      <corba_remote_reconfig name="CORBA Remote Run-Time Reconfiguration" version="2">
-         <endpoint_addr>localhost</endpoint_addr>
-         <endpoint_port>45876</endpoint_port>
-      </corba_remote_reconfig>
    </elements>
 </configuration>
 
