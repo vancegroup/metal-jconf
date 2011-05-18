@@ -67,6 +67,33 @@
             </key_modifier_pair>
          </key_pair>
       </simulated_digital_device>
+      <simulated_digital_device name="AppDigitalSim" version="2">
+         <keyboard_mouse_proxy>KBMouseProxy</keyboard_mouse_proxy>
+         <key_pair>
+            <key_modifier_pair name="KeyPresses 0" version="1">
+               <modifier_key>ANY</modifier_key>
+               <key>KEY_Q</key>
+            </key_modifier_pair>
+         </key_pair>
+         <key_pair>
+            <key_modifier_pair name="KeyPresses 1" version="1">
+               <modifier_key>ANY</modifier_key>
+               <key>KEY_W</key>
+            </key_modifier_pair>
+         </key_pair>
+         <key_pair>
+            <key_modifier_pair name="KeyPresses 2" version="1">
+               <modifier_key>ANY</modifier_key>
+               <key>KEY_E</key>
+            </key_modifier_pair>
+         </key_pair>
+         <key_pair>
+            <key_modifier_pair name="KeyPresses 3" version="1">
+               <modifier_key>ANY</modifier_key>
+               <key>KEY_R</key>
+            </key_modifier_pair>
+         </key_pair>
+      </simulated_digital_device>
       <keyboard_mouse_device name="Keyboard/MouseInputHandler0" version="2">
          <mouse_sensitivity>1.0</mouse_sensitivity>
          <scroll_as_buttons>false</scroll_as_buttons>
