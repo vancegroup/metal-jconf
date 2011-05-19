@@ -41,7 +41,7 @@
          <stereo>true</stereo>
          <border>false</border>
          <hide_mouse>true</hide_mouse>
-         <full_screen>true</full_screen>
+         <full_screen>false</full_screen>
          <always_on_top>false</always_on_top>
          <active>true</active>
          <surface_viewports>
