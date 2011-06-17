@@ -76,7 +76,7 @@
          <sleep_time>75</sleep_time>
       </display_window>
       <display_window name="Right" version="6">
-         <origin>-1600</origin>
+         <origin>0</origin>
          <origin>0</origin>
          <size>1600</size>
          <size>1200</size>
@@ -142,7 +142,7 @@
          <sleep_time>75</sleep_time>
       </display_window>
       <display_window name="Floor" version="6">
-         <origin>-3200</origin>
+         <origin>0</origin>
          <origin>0</origin>
          <size>1600</size>
          <size>1200</size>
