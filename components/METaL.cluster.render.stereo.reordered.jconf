@@ -5,7 +5,7 @@
       <cluster_node name="Node(Render)" version="1">
          <display_system>
             <display_system name="Pipe Setup" version="3">
-               <number_of_pipes>3</number_of_pipes>
+               <number_of_pipes>1</number_of_pipes>
                <pipes>-1</pipes>
                <pipes>-1</pipes>
                <pipes>-1</pipes>
