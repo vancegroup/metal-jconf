@@ -207,7 +207,7 @@ You might consider using the
 the devices made available with these config files. If you're not in our
 research group and any of this information is useful to you, we'd
 appreciate hearing from you! You can reach Ryan Pavlik, who put these
-files together, via his web site at (http://academic.cleardefinition.com).
+files together, via his web site at <http://academic.cleardefinition.com>
 
 
 
