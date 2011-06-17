@@ -45,7 +45,7 @@
          <always_on_top>false</always_on_top>
          <active>true</active>
          <surface_viewports>
-            <surface_viewport name="FrontWall (Stereo)" version="3">
+            <surface_viewport name="LeftWall (Stereo)" version="3">
                <origin>0.6666667</origin>
                <origin>0.0</origin>
                <size>0.33333334</size>

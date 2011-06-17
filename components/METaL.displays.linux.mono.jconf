@@ -9,7 +9,7 @@
          <pipes>:0.2</pipes>
          <use_swap_group>true</use_swap_group>
       </display_system>
-      <display_window name="Front" version="6">
+      <display_window name="Left" version="6">
          <origin>0</origin>
          <origin>0</origin>
          <size>1600</size>
@@ -44,7 +44,7 @@
          <always_on_top>false</always_on_top>
          <active>true</active>
          <surface_viewports>
-            <surface_viewport name="FrontWall (Mono)" version="3">
+            <surface_viewport name="LeftWall (Mono)" version="3">
                <origin>0.0</origin>
                <origin>0.0</origin>
                <size>1.0</size>
