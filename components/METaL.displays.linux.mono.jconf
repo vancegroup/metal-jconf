@@ -37,19 +37,19 @@
                <gl_context_flags>0</gl_context_flags>
             </opengl_frame_buffer_config>
          </frame_buffer_config>
-         <stereo>true</stereo>
+         <stereo>false</stereo>
          <border>false</border>
          <hide_mouse>true</hide_mouse>
          <full_screen>true</full_screen>
          <always_on_top>false</always_on_top>
          <active>true</active>
          <surface_viewports>
-            <surface_viewport name="FrontWall (Stereo)" version="3">
+            <surface_viewport name="FrontWall (Mono)" version="3">
                <origin>0.0</origin>
                <origin>0.0</origin>
                <size>1.0</size>
                <size>1.0</size>
-               <view>Stereo</view>
+               <view>Left Eye</view>
                <lower_left_corner>0.0</lower_left_corner>
                <lower_left_corner>0.0</lower_left_corner>
                <lower_left_corner>0.0</lower_left_corner>
@@ -103,19 +103,19 @@
                <gl_context_flags>0</gl_context_flags>
             </opengl_frame_buffer_config>
          </frame_buffer_config>
-         <stereo>true</stereo>
+         <stereo>false</stereo>
          <border>false</border>
          <hide_mouse>true</hide_mouse>
          <full_screen>true</full_screen>
          <always_on_top>true</always_on_top>
          <active>true</active>
          <surface_viewports>
-            <surface_viewport name="RightWall (Stereo)" version="3">
+            <surface_viewport name="RightWall (Mono)" version="3">
                <origin>0.0</origin>
                <origin>0.0</origin>
                <size>1.0</size>
                <size>1.0</size>
-               <view>Stereo</view>
+               <view>Left Eye</view>
                <lower_left_corner>3.6576</lower_left_corner>
                <lower_left_corner>0.0</lower_left_corner>
                <lower_left_corner>-0.4572</lower_left_corner>
@@ -169,19 +169,19 @@
                <gl_context_flags>0</gl_context_flags>
             </opengl_frame_buffer_config>
          </frame_buffer_config>
-         <stereo>true</stereo>
+         <stereo>false</stereo>
          <border>false</border>
          <hide_mouse>true</hide_mouse>
          <full_screen>true</full_screen>
          <always_on_top>true</always_on_top>
          <active>true</active>
          <surface_viewports>
-            <surface_viewport name="FloorWall (Stereo)" version="3">
+            <surface_viewport name="FloorWall (Mono)" version="3">
                <origin>0.0</origin>
                <origin>0.0</origin>
                <size>1.0</size>
                <size>1.0</size>
-               <view>Stereo</view>
+               <view>Left Eye</view>
                <lower_left_corner>0.0</lower_left_corner>
                <lower_left_corner>0.0</lower_left_corner>
                <lower_left_corner>2.7432</lower_left_corner>
