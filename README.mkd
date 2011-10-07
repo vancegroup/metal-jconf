@@ -215,6 +215,12 @@ System Description
 			before putting it away, otherwise it runs through batteries
 			like candy!
 
+		* Rechargeable batteries (Energizer induction charging kit for
+			Wii Remotes) in use - be sure to line up the Wii Remotes with
+			the illustrations on the dock. If the light is red or green,
+			you got it right.  If it's flashing red, pick it up and try
+			again - that means it's not quite lined up right.
+
 More Information
 ----------------
 
