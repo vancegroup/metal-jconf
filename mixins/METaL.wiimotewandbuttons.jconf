@@ -4,8 +4,8 @@
    <elements>
       <vrpn name="VRPNWiimote" version="2">
          <tracker_server>Tracker0@localhost</tracker_server>
-         <button_server>WiiMote0@192.168.1.20</button_server>
-         <analog_server>WiiMote0@192.168.1.20</analog_server>
+         <button_server>WhiteWiimote@metal-devices</button_server>
+         <analog_server>WhiteWiimote@metal-devices</analog_server>
          <tracker_count>0</tracker_count>
          <button_count>15</button_count>
          <analog_count>1</analog_count>
