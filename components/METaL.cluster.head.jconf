@@ -58,7 +58,7 @@
                      <simulator_plugin>
                         <default_simulator name="Default Simulator" version="3">
                            <camera_pos>VJHead</camera_pos>
-                           <wand_pos>VJWand</wand_pos>
+                           <wand_pos>TreeTargetProxy</wand_pos>
                            <draw_projections>true</draw_projections>
                            <surface_color>0.7</surface_color>
                            <surface_color>0.7</surface_color>
