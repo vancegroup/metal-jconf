@@ -9,6 +9,10 @@
       <alias name="VJHead" version="1">
          <proxy>HeadPositionProxy</proxy>
       </alias>
+      <user name="VJUser" version="1">
+         <head_position>VJHead</head_position>
+         <interocular_distance>0.045</interocular_distance>
+      </user>
       <alias name="VJAppExit" version="1">
          <proxy>VJAppExitProxy</proxy>
       </alias>
