@@ -120,7 +120,7 @@ tracking. Usually, for full functionality, this will be
 System Description
 ------------------
 
-* Two computers:
+* Three computers:
 
 	* Head node: `metal.vrac.iastate.edu`
 
@@ -140,6 +140,27 @@ System Description
 		* Connected to two NVIDIA Quadro Plex 2200 D2 units, for a
 			total of four NVIDIA Quadro FX 5800 cards (three used,
 			one per wall)
+
+	* Device server: `metal-devices.vrac.iastate.edu`
+
+		* Linux server
+
+		* Runs three VRPN servers providing access to four devices,
+			all of which automatically search for their respective
+			devices and connect to them when they are powered on
+			(and plugged in, where applicable)
+
+			* `WhiteWiimote@metal-devices`
+
+			* `BlackWiimote@metal-devices`
+
+			* `LeftSerialGlove@metal-devices:3884`
+
+			* `RightSerialGlove@metal-devices:3885`
+
+		* Also drives a 19" LCD used for digital signage (nodm and openbox
+			launching fullscreen Chromium accessing our [Concerto][concerto]
+			server with news and reservation calendar.)
 
 * Projectors: Three Digital Projection Inc. TITAN WUXGA 3D Series II
 
@@ -180,21 +201,16 @@ System Description
 
 * Interaction devices:
 
-	* Wii Remote connecting over Bluetooth to the head node is
+	* Wii Remote connecting over Bluetooth to the device server is
 		typically used as a wand (uses an additional jconf)
 
-		* VRPN server with GUI showing battery level,
-			currently-pressed buttons currently used on head node,
-			with AutoIt scripts to automatically complete the
-			pairing-unpairing process required when using a Wii
-			Remote on Windows.
+		* See the section on `metal-devices.vrac.iastate.edu`
+			for device/access details
 
 		* Buttons are in the "re-ordered" order - see [the VRPN
 			header][2] for information.
-		
-		* Device name is `WiiMote0@192.168.1.20` on the default VRPN port.
-		
-		* **Make sure to shut down the wand server before logging off!**
+
+		* **Make sure to power off the Wii Remote when done!**
 			Check the Wiimote to make sure that the lights are off
 			before putting it away, otherwise it runs through batteries
 			like candy!
