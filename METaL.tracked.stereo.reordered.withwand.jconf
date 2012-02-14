@@ -4,6 +4,7 @@
    <include>METaL.tracked.stereo.reordered.jconf</include>
    <include>mixins/METaL.wiimotewandbuttons.jconf</include>
    <include>mixins/METaL.treetarget.aswand.jconf</include>
+   <include>components/METaL.rtrc.jconf</include>
    <elements />
 </configuration>
 
