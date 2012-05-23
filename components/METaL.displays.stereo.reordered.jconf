@@ -48,7 +48,7 @@
             <surface_viewport name="LeftWall (Stereo)" version="3">
                <origin>0.0</origin>
                <origin>0.0</origin>
-               <size>0.3333333</size>
+               <size>0.3333334</size>
                <size>1.0</size>
                <view>Stereo</view>
                <lower_left_corner>0.0</lower_left_corner>
@@ -100,7 +100,7 @@
             <surface_viewport name="FloorWall (Stereo)" version="3">
                <origin>0.6666667</origin>
                <origin>0.0</origin>
-               <size>0.3333333</size>
+               <size>0.3333334</size>
                <size>1.0</size>
                <view>Stereo</view>
                <lower_left_corner>0.0</lower_left_corner>
