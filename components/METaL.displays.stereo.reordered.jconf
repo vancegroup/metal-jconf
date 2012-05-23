@@ -72,23 +72,23 @@
          </surface_viewports>
          <surface_viewports>
             <surface_viewport name="RightWall (Stereo)" version="3">
-               <origin>0.3333333</origin>
+               <origin>0.375</origin>
                <origin>0.0</origin>
-               <size>0.3333333</size>
+               <size>0.25</size>
                <size>1.0</size>
                <view>Stereo</view>
                <lower_left_corner>3.6576</lower_left_corner>
                <lower_left_corner>0.0</lower_left_corner>
-               <lower_left_corner>-0.4572</lower_left_corner>
+               <lower_left_corner>0.0</lower_left_corner>
                <lower_right_corner>3.6576</lower_right_corner>
                <lower_right_corner>0.0</lower_right_corner>
-               <lower_right_corner>3.2004</lower_right_corner>
+               <lower_right_corner>2.7432</lower_right_corner>
                <upper_right_corner>3.6576</upper_right_corner>
                <upper_right_corner>2.7432</upper_right_corner>
-               <upper_right_corner>3.2004</upper_right_corner>
+               <upper_right_corner>2.7432</upper_right_corner>
                <upper_left_corner>3.6576</upper_left_corner>
                <upper_left_corner>2.7432</upper_left_corner>
-               <upper_left_corner>-0.4572</upper_left_corner>
+               <upper_left_corner>0</upper_left_corner>
                <user>VJUser</user>
                <active>true</active>
                <tracked>false</tracked>
