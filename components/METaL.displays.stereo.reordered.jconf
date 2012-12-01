@@ -88,7 +88,7 @@
                <upper_right_corner>2.7432</upper_right_corner>
                <upper_left_corner>3.6576</upper_left_corner>
                <upper_left_corner>2.7432</upper_left_corner>
-               <upper_left_corner>0</upper_left_corner>
+               <upper_left_corner>0.0</upper_left_corner>
                <user>VJUser</user>
                <active>true</active>
                <tracked>false</tracked>
