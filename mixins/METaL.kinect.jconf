@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?org-vrjuggler-jccl-settings configuration.version="3.0"?>
+<configuration xmlns="http://www.vrjuggler.org/jccl/xsd/3.0/configuration" name="mixins/METaL.kinect.jconf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vrjuggler.org/jccl/xsd/3.0/configuration http://www.vrjuggler.org/jccl/xsd/3.0/configuration.xsd">
+	<elements>
+		<vrpn name="VRPNKinect" version="2">
+			<button_server>Kinect0@192.168.1.25</button_server>
+			<button_count>7</button_count>
+		</vrpn>
+			<input_manager name="VRPN Kinect Input Manager" version="2">
+			<driver>VRPN_drv</driver>
+		</input_manager>
+		<digital_proxy name="ButtonPlay" version="1">
+			<device>VRPNKinect</device>
+			<unit>0</unit>
+		</digital_proxy>
+		<alias name="VJButtonD" version="1">
+			<proxy>ButtonPlay</proxy>
+		</alias>
+		<digital_proxy name="ButtonVolDown" version="1">
+			<device>VRPNKinect</device>
+			<unit>1</unit>
+		</digital_proxy>
+		<alias name="VJButtonFOFF" version="1">
+			<proxy>ButtonVolDown</proxy>
+		</alias>
+		<digital_proxy name="ButtonVolUp" version="1">
+			<device>VRPNKinect</device>
+			<unit>2</unit>
+		</digital_proxy>
+		<alias name="VJButtonF" version="1">
+			<proxy>ButtonVolUp</proxy>
+		</alias>
+		<digital_proxy name="ButtonPause" version="1">
+			<device>VRPNKinect</device>
+			<unit>3</unit>
+		</digital_proxy>
+		<alias name="VJButtonDOFF" version="1">
+			<proxy>ButtonPause</proxy>
+		</alias>
+		<digital_proxy name="ButtonNext" version="1">
+			<device>VRPNKinect</device>
+			<unit>4</unit>
+		</digital_proxy>
+		<alias name="VJButtonS" version="1">
+			<proxy>ButtonNext</proxy>
+		</alias>
+		<digital_proxy name="ButtonPrevious" version="1">
+			<device>VRPNKinect</device>
+			<unit>5</unit>
+		</digital_proxy>
+		<alias name="VJButtonSOFF" version="1">
+			<proxy>ButtonPrevious</proxy>
+		</alias>
+			<digital_proxy name="ButtonSkeletonSeeen" version="1">
+			<device>VRPNKinect</device>
+			<unit>6</unit>
+		</digital_proxy>
+		<alias name="VJButtonA" version="1">
+			<proxy>ButtonSkeletonSeeen</proxy>
+		</alias>
+	</elements>
+</configuration>
+
