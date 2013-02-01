@@ -44,6 +44,22 @@
          <device>VRPNWiimote</device>
          <unit>6</unit>
       </digital_proxy>
+      <digital_proxy name="WMButtonLeft" version="1">
+         <device>VRPNWiimote</device>
+         <unit>7</unit>
+      </digital_proxy>
+      <digital_proxy name="WMButtonRight" version="1">
+         <device>VRPNWiimote</device>
+         <unit>8</unit>
+      </digital_proxy>
+      <digital_proxy name="WMButtonDown" version="1">
+         <device>VRPNWiimote</device>
+         <unit>9</unit>
+      </digital_proxy>
+      <digital_proxy name="WMButtonUp" version="1">
+         <device>VRPNWiimote</device>
+         <unit>10</unit>
+      </digital_proxy>
       <analog_proxy name="WMNunchukJoystickMagnitude" version="1">
          <device>VRPNWiimote</device>
          <unit>20</unit>
