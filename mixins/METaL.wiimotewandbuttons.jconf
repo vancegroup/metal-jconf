@@ -64,6 +64,14 @@
          <device>VRPNWiimote</device>
          <unit>20</unit>
       </analog_proxy>
+      <analog_proxy name="WMNunchukJoystickX" version="1">
+         <device>VRPNWiimote</device>
+         <unit>21</unit>
+      </analog_proxy>
+      <analog_proxy name="WMNunchukJoystickX" version="1">
+         <device>VRPNWiimote</device>
+         <unit>22</unit>
+      </analog_proxy>
       <alias name="VJButton0" version="1">
          <proxy>WMButtonA</proxy>
       </alias>
