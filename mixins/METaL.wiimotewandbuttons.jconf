@@ -8,10 +8,11 @@
          <analog_server>WhiteWiimote@192.168.1.23</analog_server>
          <tracker_count>0</tracker_count>
          <button_count>15</button_count>
-         <analog_count>21</analog_count>
+         <analog_count>24</analog_count>
          <!-- This was set to use the Joystick Magnitude as the Linear Encoder input. -->
-         <min>0.0</min>
-         <max>1.4</max>
+          <!-- Commenting min and max out as they conflict with analog input -->
+         <!--<min>0.0</min> -->
+         <!--<max>1.4</max> -->
       </vrpn>
       <input_manager name="VRPN Wiimote Input Manager" version="2">
          <driver>VRPN_drv</driver>
@@ -68,7 +69,7 @@
          <device>VRPNWiimote</device>
          <unit>21</unit>
       </analog_proxy>
-      <analog_proxy name="WMNunchukJoystickX" version="1">
+      <analog_proxy name="WMNunchukJoystickY" version="1">
          <device>VRPNWiimote</device>
          <unit>22</unit>
       </analog_proxy>
