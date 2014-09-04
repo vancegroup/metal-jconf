@@ -1,79 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?org-vrjuggler-jccl-settings configuration.version="3.0"?>
-<configuration xmlns="http://www.vrjuggler.org/jccl/xsd/3.0/configuration" name="components/METaL.base.jconf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vrjuggler.org/jccl/xsd/3.0/configuration http://www.vrjuggler.org/jccl/xsd/3.0/configuration.xsd">
+<configuration xmlns="http://www.vrjuggler.org/jccl/xsd/3.0/configuration" name="components/METaL.user.jconf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vrjuggler.org/jccl/xsd/3.0/configuration http://www.vrjuggler.org/jccl/xsd/3.0/configuration.xsd">
    <elements>
-      <position_proxy name="HeadPositionProxy" version="1">
-         <device>TrackPack4</device>
-         <unit>0</unit>
-      </position_proxy>
-      <alias name="VJHead" version="1">
-         <proxy>HeadPositionProxy</proxy>
-      </alias>
       <user name="VJUser" version="1">
          <head_position>VJHead</head_position>
          <interocular_distance>0.045</interocular_distance>
       </user>
-      <alias name="VJAppExit" version="1">
-         <proxy>VJAppExitProxy</proxy>
-      </alias>
-      <digital_proxy name="VJAppExitProxy" version="1">
-         <device>AppDigitalSim</device>
-         <unit>0</unit>
-      </digital_proxy>
-      <alias name="VJSystemStopKernel" version="1">
-         <proxy>VJSystemStopKernelProxy</proxy>
-      </alias>
-      <digital_proxy name="VJSystemStopKernelProxy" version="1">
-         <device>DigitalSystemControls</device>
-         <unit>0</unit>
-      </digital_proxy>
-      <simulated_digital_device name="DigitalSystemControls" version="2">
-         <keyboard_mouse_proxy>KBMouseProxy</keyboard_mouse_proxy>
-         <key_pair>
-            <key_modifier_pair name="KeyPresses 0" version="1">
-               <modifier_key>ANY</modifier_key>
-               <key>KEY_ESC</key>
-            </key_modifier_pair>
-         </key_pair>
-      </simulated_digital_device>
-      <simulated_digital_device name="AppDigitalSim" version="2">
-         <keyboard_mouse_proxy>KBMouseProxy</keyboard_mouse_proxy>
-         <key_pair>
-            <key_modifier_pair name="KeyPresses 0" version="1">
-               <modifier_key>ANY</modifier_key>
-               <key>KEY_Q</key>
-            </key_modifier_pair>
-         </key_pair>
-         <key_pair>
-            <key_modifier_pair name="KeyPresses 1" version="1">
-               <modifier_key>ANY</modifier_key>
-               <key>KEY_W</key>
-            </key_modifier_pair>
-         </key_pair>
-         <key_pair>
-            <key_modifier_pair name="KeyPresses 2" version="1">
-               <modifier_key>ANY</modifier_key>
-               <key>KEY_E</key>
-            </key_modifier_pair>
-         </key_pair>
-         <key_pair>
-            <key_modifier_pair name="KeyPresses 3" version="1">
-               <modifier_key>ANY</modifier_key>
-               <key>KEY_R</key>
-            </key_modifier_pair>
-         </key_pair>
-      </simulated_digital_device>
-      <keyboard_mouse_device name="Keyboard/MouseInputHandler0" version="2">
-         <mouse_sensitivity>1.0</mouse_sensitivity>
-         <scroll_as_buttons>false</scroll_as_buttons>
-         <scroll_up_button>MOUSE_BUT4</scroll_up_button>
-         <scroll_down_button>MOUSE_BUT5</scroll_down_button>
-         <scroll_left_button>MOUSE_BUT6</scroll_left_button>
-         <scroll_right_button>MOUSE_BUT7</scroll_right_button>
-      </keyboard_mouse_device>
-      <keyboard_mouse_proxy name="KBMouseProxy" version="1">
-         <device>Keyboard/MouseInputHandler0</device>
-      </keyboard_mouse_proxy>
    </elements>
 </configuration>
 
