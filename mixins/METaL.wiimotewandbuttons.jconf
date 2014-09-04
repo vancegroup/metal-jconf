@@ -9,6 +9,8 @@
          <tracker_count>0</tracker_count>
          <button_count>15</button_count>
          <analog_count>24</analog_count>
+         <min>-1.0</min>
+         <max>1.0</max>
          <!-- This was set to use the Joystick Magnitude as the Linear Encoder input. -->
           <!-- Commenting min and max out as they conflict with analog input -->
          <!--<min>0.0</min> -->
