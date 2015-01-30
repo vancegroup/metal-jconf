@@ -8,10 +8,10 @@
          <pipes>-1</pipes>
          <pipes>-1</pipes>
          <pipes>-1</pipes>
-         <use_swap_group>false</use_swap_group>
+         <use_swap_group>true</use_swap_group>
       </display_system>
       <display_window name="VR Display" version="6">
-         <origin>-3200</origin>
+         <origin>0</origin>
          <origin>0</origin>
          <size>4800</size>
          <size>1200</size>
@@ -46,10 +46,10 @@
          <active>true</active>
          <surface_viewports>
             <surface_viewport name="LeftWall (Stereo)" version="3">
-               <origin>0.6666667</origin>
-               <origin>0.0</origin>
-               <size>0.3333334</size>
-               <size>1.0</size>
+               <origin>0</origin>
+               <origin>0</origin>
+               <size>0.333334</size>
+			   <size>1.0</size>
                <view>Stereo</view>
                <lower_left_corner>0.0</lower_left_corner>
                <lower_left_corner>0.0</lower_left_corner>
@@ -72,23 +72,23 @@
          </surface_viewports>
          <surface_viewports>
             <surface_viewport name="RightWall (Stereo)" version="3">
-               <origin>0.375</origin>
-               <origin>0.0</origin>
-               <size>0.25</size>
-               <size>1.0</size>
+			   <origin>0.666667</origin>
+			   <origin>0</origin>
+			   <size>0.333334</size>
+			   <size>1.0</size>
                <view>Stereo</view>
                <lower_left_corner>3.6576</lower_left_corner>
                <lower_left_corner>0.0</lower_left_corner>
-               <lower_left_corner>0.0</lower_left_corner>
+			   <lower_left_corner>-0.4572</lower_left_corner>
                <lower_right_corner>3.6576</lower_right_corner>
                <lower_right_corner>0.0</lower_right_corner>
-               <lower_right_corner>2.7432</lower_right_corner>
+			   <lower_right_corner>3.2004</lower_right_corner>
                <upper_right_corner>3.6576</upper_right_corner>
                <upper_right_corner>2.7432</upper_right_corner>
-               <upper_right_corner>2.7432</upper_right_corner>
+			   <upper_right_corner>3.2004</upper_right_corner>
                <upper_left_corner>3.6576</upper_left_corner>
                <upper_left_corner>2.7432</upper_left_corner>
-               <upper_left_corner>0.0</upper_left_corner>
+			   <upper_left_corner>-0.4572</upper_left_corner>
                <user>VJUser</user>
                <active>true</active>
                <tracked>false</tracked>
@@ -98,9 +98,9 @@
          </surface_viewports>
          <surface_viewports>
             <surface_viewport name="FloorWall (Stereo)" version="3">
-               <origin>0.0</origin>
-               <origin>0.0</origin>
-               <size>0.3333334</size>
+			   <origin>0.333334</origin>
+               <origin>0</origin>
+               <size>0.333334</size>
                <size>1.0</size>
                <view>Stereo</view>
                <lower_left_corner>0.0</lower_left_corner>
